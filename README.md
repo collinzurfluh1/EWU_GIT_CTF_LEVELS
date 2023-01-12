@@ -1,6 +1,6 @@
-# make-git-better
+# EWU GIT CTF
 
-Welcome to the first REAL stage of the CTF :) 
+Welcome to level 1!
 
 ## Your challenge
 
