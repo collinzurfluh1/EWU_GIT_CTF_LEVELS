@@ -1,6 +1,6 @@
 # EWU GIT CTF
 
-Welcome to level 1!
+Welcome to the EWU GIT CTF!
 
 ## How to select levels
 
