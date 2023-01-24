@@ -8,7 +8,7 @@ Welcome to level 1!
 Create a file named computerScienceRocks.txt
 Write your favorite word
 Use git add to add this file
-Create a commit using `git commit -m “message”
+Create a commit using `git commit -m “message”`
 Push the commit using `git push`
 Checkout level 2 using `git checkout level-2`
 
