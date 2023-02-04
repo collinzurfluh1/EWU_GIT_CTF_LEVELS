@@ -7,6 +7,7 @@ Welcome to level 6!
 
 	Modify the hidden file “If you need help, feel free to look it up :)”
 	Add the hidden file to git
+	To add a hidden file run git add 'name' -f
 	Create antiSpyAgency.txt
 	Add antiSpyAgency.txt
 	Create a commit
