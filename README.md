@@ -7,7 +7,9 @@ Welcome to level 1!
 
 Create a file named computerScienceRocks.txt
 Write your favorite word
-Use git add to add this file
+Create a file named rocksForComputerScience.txt
+Write your favorite word
+Use git add to add these files `git add computerScienceRocks.txt rocksForComputerScience.txt`
 Create a commit using `git commit -m “message”`
 Push the commit using `git push`
 
