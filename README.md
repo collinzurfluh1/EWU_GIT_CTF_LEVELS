@@ -10,6 +10,8 @@ Welcome to level 6!
 	To add a hidden file run git add 'name' -f
 	Create antiSpyAgency.txt
 	Add antiSpyAgency.txt
+	Create antiSpyCorp.txt
+	Add antiSpyCorp.txt
 	Create a commit
 	Push the commit
 	Checkout level 7
