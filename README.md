@@ -1,11 +1,11 @@
 # EWU GIT CTF
 
-Welcome to level 8!
+Welcome to level 9!
 
 
 ## Your Mission
 
-Checkout coolscript.py and see what you can find.
+Merge the branch mergehelper2 into this branch and fix the conflicts.
 
 ## How to select levels
 
