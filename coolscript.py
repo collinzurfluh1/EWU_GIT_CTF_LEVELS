@@ -74,11 +74,18 @@ Pokemon
 gotta catch em all
 Gotta catch em all
 Pokemon""")   
+    
+def best_text():
+    message = "This is even best text that you can find"
+    print(message)
 
 def print_cool_text():
     message = "The coolest text you can find."
     print(message)
 
+def cooler_text():
+    message = "This is even cooler text that you can find just waiting around"
+    print(message)
 
 def main():
     print_pokemon_theme()
