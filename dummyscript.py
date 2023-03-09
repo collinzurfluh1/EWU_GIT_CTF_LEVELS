@@ -1,6 +1,12 @@
-# Program to generate a random number between 0 and 9
+#!/usr/bin/env python3
 
-# importing the random module
-import random
+def cool():
+   message = "Hey you're pretty cool"
+  print(message)
 
-print(random.randint(0,9))
+
+def main():
+    cool()
+
+if __name__ == "__main__":
+    main()
