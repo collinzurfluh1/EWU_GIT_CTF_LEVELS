@@ -8,6 +8,8 @@ Welcome to level 10!
 ## Your Mission
 	
 Merge mergehelper3 into this branch.
+Use git status to find the merge commit hash
+Use git revert -m 1 your_commit_hash
 Push
 	
 ## How to select levels
