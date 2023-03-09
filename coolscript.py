@@ -76,7 +76,7 @@ Gotta catch em all
 Pokemon""")   
 
 def print_cool_text():
-    message = "The coolist text you can finder.   "
+    message = "The coolest text you can find."
     print(message)
 
 
