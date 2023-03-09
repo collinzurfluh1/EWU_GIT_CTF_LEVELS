@@ -1,20 +1,17 @@
+Git merge and revert
+
 # EWU GIT CTF
 
-Welcome to level 9!
+Welcome to level 10!
 
 
 ## Your Mission
-
-Merge the branch mergehelper2 into this branch.
-This time there is a merge conflict.
-Try editing coolscript.py to remove the conflict.
-Add coolscript.py.
-Make a commit.
-Push your commit.
-
+	
+Merge mergehelper3 into this branch.
+Push
+	
 ## How to select levels
 
 git checkout level-#
 
 Get started with: git checkout level-1
-	
