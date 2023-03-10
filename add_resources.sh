@@ -1,3 +1,0 @@
-echo 'SWYgQ2luZGVyZWxsYeKAmXMgc2hvZSBmaXQgcGVyZmVjdGx5LCB0aGVuIHdoeSBkaWQgaXQgZmFsbCBvZmY/' > resources/resource1.b64
-echo 'RnJpZW5kcyBidXkgeW91IGZvb2QuIEJlc3QgZnJpZW5kcyBlYXQgeW91ciBmb29kLg==' > resources/resource2.b64
-echo 'U29tZSBwZW9wbGUgYXJlIGxpa2UgY2xvdWRzLiBXaGVuIHRoZXkgZ28gYXdheSwgaXTigJlzIGEgYnJpZ2h0ZXIgZGF5Lg==' > resources/git_koan.b64
