@@ -1,16 +1,26 @@
-Git merge and revert
+Git Rebase
 
 # EWU GIT CTF
 
-Welcome to level 10!
+Welcome to level 11!
 
 
 ## Your Mission
 	
-Merge mergehelper3 into this branch.
-Use git log to find the merge commit hash
-Use git revert -m 1 your_commit_hash
-Push
+This one is a lot harder than you have done before so hang in there. If you need help remember to check
+back at this readme file or use ewugithelp.
+
+Checkout level-11-helper
+Use chmod to add execute to add_resources.sh
+Run add_resources.sh
+Git add the resources folder
+Git remove add_resources.sh with the force flag
+Make a git commit.
+Run this command git rebase level-11 level-11-helper
+Checkout level-11 again
+Git merge level-11-helper into this branch
+Git push
+YOU DID IT!
 	
 ## How to select levels
 
