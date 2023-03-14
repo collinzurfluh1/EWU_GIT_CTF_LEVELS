@@ -13,4 +13,3 @@ Push after your mission is complete to find the flag.
 git checkout level-#
 
 Get started with: git checkout level-1
-	
