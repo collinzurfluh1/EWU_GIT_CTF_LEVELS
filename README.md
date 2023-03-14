@@ -1,11 +1,11 @@
 # EWU GIT CTF
 
-Welcome to level 8!
+Welcome to level 7!
 
 
 ## Your Mission
 
-Checkout coolscript.py and see what you can find.
+Checkout mergerscript.py and see what you can find.
 Push after your mission is complete to find the flag.
 
 ## How to select levels
