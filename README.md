@@ -1,17 +1,12 @@
 # EWU GIT CTF
 
-Welcome to level 6!
+Welcome to level 7!
 
 
 ## Your Mission
 
-	Modify the hidden file “If you need help, feel free to look it up :)”
-	Add the hidden file to git
-	Create antiSpyAgency.txt
-	Add antiSpyAgency.txt
-	Create a commit
-	Push the commit
-	Checkout level 7
+Checkout mergerscript.py and see what you can find.
+Push after your mission is complete to find the flag.
 
 ## How to select levels
 
