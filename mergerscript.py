@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-def print_pokemon_theme():
-    print("""
+
 def print_cool_text():
     print("Maybe later")
     # print("I'll implement the rest of this script in the level-8-helper branch.")
