@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+def bad_text():
+    print("super scary bad text.")
+
 def print_good_text():
     print("Never gonna giv u up neva gonna let u dowwwnnnn never gonna run around and desert you")   
 
