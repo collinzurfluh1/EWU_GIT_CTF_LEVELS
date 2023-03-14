@@ -1,14 +1,76 @@
 #!/usr/bin/env python3
 
-import base64
+def print_pokemon_theme():
+    print("""I wanna be the very best
+Like no one ever was 
+To catch them is my real test 
+To train them is my cause
+I will travel across the land
+Searching far and wide
+Each Pokemon to understand
+The power thats inside
+Pokemon, gotta catch em all
+Its you and me
+I know its my destiny
+Pokemon
+Oh, youre my best friend
+In a world we must defend
+Pokemon, gotta catch em all
+A heart so true
+Our courage will pull us through
+You teach me and Ill teach you
+Pokemon
+gotta catch em all
+Gotta catch em all
+Yeah
+Every challenge along the way
+With courage I will face
+I will battle every day
+To claim my rightful place
+Come with me, the time is right
+Theres no better team
+Arm in arm well win the fight
+Its always been our dream
+Pokemon, gotta catch em all
+Its you and me
+I know its my destiny
+Pokemon
+Oh, youre my best friend
+In a world we must defend
+Pokemon, gotta catch em all
+A heart so true
+Our courage will pull us through
+You teach me and Ill teach you
+Pokemon
+gotta catch em all
+Gotta catch em all
+Gotta catch em all
+Gotta catch em all
+Gotta catch em all
+Yeah!
+Pokemon, gotta catch em all
+Its you and me
+I know its my destiny
+Pokemon
+Oh, youre my best friend
+In a world we must defend
+Pokemon, gotta catch em all
+A heart so true
+Our courage will pull us through
+You teach me and Ill teach you
+Pokemon
+gotta catch em all
+Gotta catch em all
+Pokemon""")   
 
-def print_something_cool():
-    something_cool = b'CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXy4tIi0uXwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfLi0iLS5fJyAgICAgICBgLS5fCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfLi0iLS5fJyAgICAgICBgLS5fICAgICBfLi0nfAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIF8uLSItLl8nICAgICAgIGAtLl8gICAgIF8uLXxfLi0nXy4tJ2AtLl8KICAgICAgICAgICAgICAgICAgICAgXy4tIi0uXycgICAgICAgYC0uXyAgICAgXy4tfF8uLScgICB8Xy4tJyAgICAgICAgYC0uXwogICAgICAgICAgICAgXy4tIi0uXycgICAgICAgYC0uXyAgICAgXy4tfF8uLScgICAgICAgICAgIGAtLl8gICAgICAgICBfLi18CiAgICAgXy4tIi0uXycgICAgICAgYC0uXyAgICAgXy4tfF8uLScgICAgICAgICAgICAgICAgICAgICAgIGAtLl8gXy4tJ18uLWAtLl8KIF8uLScgICAgICAgYF8uLSItLl8gXy4tfF8uLScgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHxfLi0nICAgICAgIGAtLl8KYC0uXyAgICAgXy4tJyAgICAgICBgXy4tJy0uXyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwtLl8gICAgICAgICBfLi0nCiAgICBgLS5ffC0uXyAgICAgXy4tJyAgICAgICBgXy4tJy0uXyAgICAgICAgICAgICAgICAgICAgICAgICBfLi0nLS5fYC0uXyBfLi0nCiAgICAgICAgICAgIGAtLl98LS5fICAgICBfLi0nICAgICAgIGBfLi0nLS5fICAgICAgICAgICAgIF8uLScgICAgICAgYC0uX3wKICAgICAgICAgICAgICAgICAgICBgLS5ffC0uXyAgICAgXy4tJyAgICAgICBgXy4tJy0uXyAgICB8LS5fICAgICAgICAgXy4tJwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYC0uX3wtLl8gICAgIF8uLScgICAgICAgYF8uLSctLl9gLS5fIF8uLScKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYC0uX3wtLl8gICAgIF8uLScgICAgICAgYC0uX3wKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBgLS5ffC0uXyAgICAgICAgIF8uLScKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGAtLl8gXy4tJyAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIgo=CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXy4tIi0uXwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfLi0iLS5fJyAgICAgICBgLS5fCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfLi0iLS5fJyAgICAgICBgLS5fICAgICBfLi0nfAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIF8uLSItLl8nICAgICAgIGAtLl8gICAgIF8uLXxfLi0nXy4tJ2AtLl8KICAgICAgICAgICAgICAgICAgICAgXy4tIi0uXycgICAgICAgYC0uXyAgICAgXy4tfF8uLScgICB8Xy4tJyAgICAgICAgYC0uXwogICAgICAgICAgICAgXy4tIi0uXycgICAgICAgYC0uXyAgICAgXy4tfF8uLScgICAgICAgICAgIGAtLl8gICAgICAgICBfLi18CiAgICAgXy4tIi0uXycgICAgICAgYC0uXyAgICAgXy4tfF8uLScgICAgICAgICAgICAgICAgICAgICAgIGAtLl8gXy4tJ18uLWAtLl8KIF8uLScgICAgICAgYF8uLSItLl8gXy4tfF8uLScgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHxfLi0nICAgICAgIGAtLl8KYC0uXyAgICAgXy4tJyAgICAgICBgXy4tJy0uXyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwtLl8gICAgICAgICBfLi0nCiAgICBgLS5ffC0uXyAgICAgXy4tJyAgICAgICBgXy4tJy0uXyAgICAgICAgICAgICAgICAgICAgICAgICBfLi0nLS5fYC0uXyBfLi0nCiAgICAgICAgICAgIGAtLl98LS5fICAgICBfLi0nICAgICAgIGBfLi0nLS5fICAgICAgICAgICAgIF8uLScgICAgICAgYC0uX3wKICAgICAgICAgICAgICAgICAgICBgLS5ffC0uXyAgICAgXy4tJyAgICAgICBgXy4tJy0uXyAgICB8LS5fICAgICAgICAgXy4tJwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYC0uX3wtLl8gICAgIF8uLScgICAgICAgYF8uLSctLl9gLS5fIF8uLScKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYC0uX3wtLl8gICAgIF8uLScgICAgICAgYC0uX3wKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBgLS5ffC0uXyAgICAgICAgIF8uLScKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGAtLl8gXy4tJyAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIgo='
-
-    print(base64.b64decode(something_cool).decode())
+def print_cool_text():
+    print("Maybe later")
+    # print("I'll implement the rest of this script in the level-8-helper branch.")
+    # print("The rest of this script by now was already implemented. Try running git merge level-8-helper/level-8")
 
 def main():
-    print_something_cool()
+    print_pokemon_theme()
+    print_cool_text()
 
 if __name__ == "__main__":
     main()
